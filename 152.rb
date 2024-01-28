@@ -17,3 +17,18 @@ measurement1 = box_measurement(2, 4)
 measurement2 = box_measurement(8, 6)
 
 puts measurement2
+
+
+def add_three_numbers(number1, number2, number3)
+    return number1 + number2 + number3
+  end
+  
+  number1 = (3)
+  number2 = (2)
+  number3 = (7)
+
+add_three_numbers = number1 + number2 + number3
+
+puts add_three_numbers
+
+#add_three_numbers was defined as 3 but only given 1 argument
