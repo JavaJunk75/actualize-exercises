@@ -1,7 +1,4 @@
-git add --all
-git commit -m "Add exercise solutions"
-git push origin main
 
-#Q1 I apologize,I need more practice. I do not understand this code.
+#Q1 I apologize,I was not able to pull a practice problem. Slacked you a photo of the error message.  
 
-#Q2 This did not come easily and I was not able to solve from memory.
+#Q2 n/a
