@@ -21,16 +21,14 @@ class Person
 
 
   class Product
-    attr_reader :name, :price, :description
-  
-    def initialize(options_hash)
-      @name = options_hash["name"]
-      @price = options_hash["price"]
-      @description = options_hash["description"]
-    end
-  end
-  
-  product = Product.new("Table", 500, "Solid oak") # FIX THIS LINE
-  puts "The product's name is #{product.name}."
-  puts "The product's name is #{product.price}."
-  puts "The product's name is #{product.description}."
+	attr_reader :name, :price, :description
+	def initialize(options_hash)
+		@name = options_hash["name"]
+		@price = options_hash["price"]
+		@description = options_hash["description"]
+	end
+end
+product = Product.new({"name" => "Table", "price" => 500, "description" => "Solid oak"}) 
+puts "The product's name is #{product.name}."
+puts "The product's name is #{product.price}."
+puts "The product's name is #{product.description}."
