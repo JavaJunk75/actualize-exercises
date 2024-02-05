@@ -11,3 +11,6 @@
 #Write a program that uses a variable to store a number, then prints that number plus 10.
 number = 7
 pp number + 10
+
+
+#Yes I was able to complete from memory. I will move on to the next problem tomorrow.
