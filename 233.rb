@@ -24,3 +24,11 @@ numbers = [4, 3, 1, 5]
 numbers.each do |number|
   puts number * 2
 end
+
+
+# QUESTION 2
+# Fix the errors with the code below.
+colors = ["red", "green", "blue"]
+colors.each do |colors|
+  puts colors.upcase
+end
